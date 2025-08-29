@@ -1,0 +1,76 @@
+.about-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.about-header {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 20px; /* changed from bottom-only to full curve */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 0 1rem 2rem 1rem; /* added margin so curves are visible */
+}
+
+.about-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.about-card {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-card h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.about-card ul {
+  padding-left: 1.2rem;
+}
+
+.about-card li {
+  margin-bottom: 0.5rem;
+}
+
+.about-footer {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20px; /* changed from top-only to full curve */
+  margin: 2rem 1rem 0 1rem; /* added margin so curves are visible */
+}
+
+.about-footer a {
+  color: #ffda79;
+  text-decoration: none;
+}

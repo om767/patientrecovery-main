@@ -1,0 +1,117 @@
+.doctor-dashboard {
+  font-family: "Segoe UI", sans-serif;
+  background: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header with new gradient */
+.doctor-header {
+  background: linear-gradient(90deg, #007bff, #0284ff); /* your blue gradient */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  border-radius: 0 0 20px 20px; /* curve bottom */
+}
+
+.doctor-body {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Patient List */
+.patient-list {
+  width: 25%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.patient-list h2 {
+  margin-bottom: 10px;
+  color: #007bff; /* headline blue */
+}
+
+.patient-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.patient-list li:hover {
+  background: #e6f3ff; /* subtle light blue hover */
+}
+
+.patient-list li.active {
+  background: linear-gradient(90deg, #007bff, #0284ff);
+  color: white;
+  font-weight: bold;
+}
+
+/* Patient Details */
+.patient-details {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.patient-details h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.alerts {
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+  padding: 10px;
+  border-radius: 6px;
+  color: #b91c1c;
+  margin-bottom: 15px;
+}
+
+.latest-log {
+  margin-bottom: 20px;
+}
+
+.wound-photo {
+  width: 120px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 2px solid #007bff20;
+}
+
+.history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history th, .history td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.history th {
+  background: #f0f7ff;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.small-photo {
+  width: 50px;
+  border-radius: 4px;
+  border: 1px solid #007bff30;
+}

@@ -1,0 +1,108 @@
+.patient-dashboard {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.animate-fade {
+  animation: fadeIn 1.5s ease-in-out;
+}
+.animate-slide {
+  animation: slideIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.card h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* Form */
+.log-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+.log-form input[type="range"] {
+  width: 100%;
+  margin-top: 8px;
+}
+.log-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  min-height: 80px;
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.submit-btn:hover {
+  background: #0056b3;
+}
+
+/* Photo Preview */
+.photo-preview {
+  margin-top: 10px;
+}
+.photo-preview img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Recovery Progress */
+.logs-list {
+  list-style: none;
+  padding: 0;
+}
+.logs-list li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+.logs-list li:last-child {
+  border-bottom: none;
+}
